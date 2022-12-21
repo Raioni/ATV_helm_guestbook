@@ -42,7 +42,7 @@ spec:
             valueFrom:
               secretKeyRef:
                 key: redis-password
-                name: redis
+                name: guestbook-redis
           - name: REDIS_MASTER_SERVICE_HOST
             value: "redis-master"
           - name: REDIS_MASTER_SERVICE_PORT
